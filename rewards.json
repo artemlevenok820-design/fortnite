@@ -1,0 +1,52 @@
+{
+  "rewards": [
+    {"name": "Монеты x50",       "weight": 50000, "rarity": "common"},
+    {"name": "Материалы x100",   "weight": 30000, "rarity": "common"},
+    {"name": "Скин 'Пират'",     "weight": 5000,  "rarity": "rare"},
+    {"name": "Эмоция 'Танец'",   "weight": 1000,  "rarity": "rare"},
+    {"name": "Доступ в магазин", "weight": 1,     "rarity": "ultra"}
+  ],
+  "treasure_hour_multiplier": 1.5,
+  "texts": {
+    "ru": {
+      "welcome": "🎁 Симулятор сундуков Fortnite (Случайные ивенты)",
+      "controls": "Управление: [Enter] — открыть сундук, [r] — сбросить прогресс, [q] — выход",
+      "event_start": "✨✨✨ ВНЕЗАПНО! Начался Treasure Hour! ✨✨✨",
+      "event_desc": "Редкие награды x{multiplier}. У тебя есть {turns} открытий!",
+      "event_end": "⏰ Treasure Hour закончился. Шансы вернулись в норму.",
+      "chest_event": "  📦 Сундук #{num} (🔥 Ивент! Осталось ходов: {turns}): {loot}",
+      "chest_normal": "  📦 Сундук #{num}: {loot}",
+      "jackpot": "🎉🎉🎉 ДЖЕКПОТ! Ты выбил ультра-редкую награду за {num} открытий!",
+      "reset_warn": "⚠️ Вы уверены, что хотите сбросить прогресс? Открыто сундуков: {num}.",
+      "reset_prompt": "👉 Введите [y], чтобы подтвердить сброс, или нажмите [Enter] чтобы отменить.",
+      "reset_ok": "🔄 Прогресс успешно сброшен! Счётчики обнулены.",
+      "reset_cancel": "❌ Сброс отменён. Возвращаемся в игру.",
+      "total_opened": "Итого открыто сундуков: {num}",
+      "total_events": "Всего случайных ивентов Treasure Hour пережито: {num}",
+      "no_jackpot": "Ультра-редкая так и не выпала. В следующий раз обязательно повезет!",
+      "choose_lang": "Choose language / Выберите язык: [1] English, [2] Русский",
+      "wrong_key": "🤷 Ой, вы нажали не ту клавишу.",
+      "controls_hint": "👉 Пожалуйста, нажмите [Enter], чтобы открыть сундук, [r] чтобы сбросить прогресс, или [q], чтобы выйти."
+    },
+    "en": {
+      "welcome": "🎁 Fortnite Chest Simulator (Random Events)",
+      "controls": "Controls: [Enter] — open chest, [r] — reset progress, [q] — quit",
+      "event_start": "✨✨✨ SUDDENLY! Treasure Hour has started! ✨✨✨",
+      "event_desc": "Rare rewards x{multiplier}. You have {turns} openings!",
+      "event_end": "⏰ Treasure Hour is over. Chances are back to normal.",
+      "chest_event": "  📦 Chest #{num} (🔥 Event! Turns left: {turns}): {loot}",
+      "chest_normal": "  📦 Chest #{num}: {loot}",
+      "jackpot": "🎉🎉🎉 JACKPOT! You got an ultra-rare reward after {num} openings!",
+      "reset_warn": "⚠️ Are you sure you want to reset progress? Chests opened: {num}.",
+      "reset_prompt": "👉 Type [y] to confirm reset, or press [Enter] to cancel.",
+      "reset_ok": "🔄 Progress successfully reset! Counters are zeroed.",
+      "reset_cancel": "❌ Reset cancelled. Returning to the game.",
+      "total_opened": "Total chests opened: {num}",
+      "total_events": "Total random Treasure Hour events survived: {num}",
+      "no_jackpot": "The ultra-rare reward never dropped. Better luck next time!",
+      "choose_lang": "Choose language / Выберите язык: [1] English, [2] Русский",
+      "wrong_key": "🤷 Oops, you pressed the wrong key.",
+      "controls_hint": "👉 Please press [Enter] to open a chest, [r] to reset progress, or [q] to quit."
+    }
+  }
+}
